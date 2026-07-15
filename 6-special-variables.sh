@@ -8,6 +8,7 @@ echo "Who is running: $USER"
 echo "Which Directory: $PWD"
 echo "Home Directory: $HOME"
 echo "PID of the script: $$"
-
 sleep 5 &
 echo "PID of background command running: $!"
+wait $!
+echo "LINE NUMBER: $LINENO"
