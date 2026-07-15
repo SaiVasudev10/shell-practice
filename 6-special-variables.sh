@@ -14,3 +14,4 @@ wait $!
 echo "LINE NUMBER: $LINENO"
 echo "Script executed in $SECONDS seconds"
 echo "Randam Number $RANDOM"
+echo "Exit Code in the previous command: $?"
