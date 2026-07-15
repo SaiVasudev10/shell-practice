@@ -1,5 +1,10 @@
 #!/bin/bash
 
-echo "X: How are you?"
-echo "Y: I'm doing good Thank you!! How about you?"
-echo "X: I'm good!!! Thank you."
+PERSON1=X
+PERSON2=Y 
+
+
+echo "$PERSON1: How are you?"
+echo "$PERSON2: I'm doing good Thank you!! How about you?"
+echo "$PERSON1: I'm good!!! Thank you."
+echo "$PERSON2: I was great talking to you."
