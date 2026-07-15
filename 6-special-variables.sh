@@ -13,3 +13,4 @@ echo "PID of background command running: $!"
 wait $!
 echo "LINE NUMBER: $LINENO"
 echo "Script executed in $SECONDS seconds"
+echo "Randam Number $RANDOM"
