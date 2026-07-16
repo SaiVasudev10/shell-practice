@@ -10,4 +10,4 @@ echo "Sum is: $SUM"
 #Array
 
 Names=("John" "Joe" "Jacob")
-echo "Movies are: ${Names[@]}
+echo "Movies are: ${Names[@]}"
