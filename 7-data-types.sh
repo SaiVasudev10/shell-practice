@@ -11,3 +11,4 @@ echo "Sum is: $SUM"
 
 Names=("John" "Joe" "Jacob")
 echo "Movies are: ${Names[@]}"
+echo "First movie name: ${Names[0]}"
